@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/jiedec/my-project/grpc-demo/greeter";
+option go_package = "github.com/jiedec/grpc-demo/greeter";
 
 message HelloRequest {
     string name = 1;
